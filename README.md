@@ -28,3 +28,61 @@ This repository provides a simple, deterministic Python script that produces a s
 
 The repository includes a single Python script:
 
+src/card_validation_pipeline.py
+
+Running this script performs a deterministic validation process and produces one output file.
+
+---
+
+## How to Run the Pipeline
+
+From the root of the repository:
+
+python src/card_validation_pipeline.py
+
+This will generate:
+
+validation/card_validation_audit.json
+
+The audit file contains the results of the validation run, along with metadata such as timestamps and run identifiers.
+
+---
+
+## Example
+
+A minimal example is provided in:
+
+examples/run_example.txt
+
+It demonstrates the exact command used to invoke the pipeline.
+
+---
+
+## Output
+
+The pipeline produces a single JSON file:
+
+validation/card_validation_audit.json
+
+This file serves as the reproducible artifact of the validation process.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Citation
+
+If referencing this repository or the associated validation memo, please cite:
+
+Marszalek, G. (2026). **TM‑2026‑CARD‑042: Flyby Tracking Validation Memo.** Zenodo. https://doi.org/10.5281/zenodo.21688703
+
+---
+
+## Notes
+
+This repository is intended solely as a reproducible engineering workflow and validation pipeline.  
+It does not present or describe any physical models, theoretical frameworks, or scientific claims.
