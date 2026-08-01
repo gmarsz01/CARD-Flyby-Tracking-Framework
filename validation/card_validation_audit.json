@@ -1,0 +1,202 @@
+{
+    "audit_metadata": {
+        "pipeline_version": "v39.5.0-Final",
+        "archive_doi": "10.5281/zenodo.21688703",
+        "timestamp": "2026-07-29T21:35:22.702743Z",
+        "framework_id": "Constraint-Resolution Dynamics (CARD)",
+        "hierarchy_layers": [
+            "v19",
+            "v35",
+            "v37",
+            "v38",
+            "v39"
+        ],
+        "script_sha256_signature": "bd41c513380aabe8139bb793d148b4e18ca8d517619afd196dc0c18536122f98"
+    },
+    "fleet_evaluations": {
+        "Galileo I (1990)": {
+            "target_body": "EARTH",
+            "layer_tags": {
+                "body_mapping": "v35_base_earth",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.8696506362991918,
+                "beta_surface": 1.5514100553281597e-06,
+                "beta_curved": 1.3491847417770985e-06,
+                "equatorial_sweep": 0.14921543284537153,
+                "raw_baseline_dv_ms": 0.004143285391737659,
+                "curved_baseline_dv_ms": 3.6032107772938015e-06,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "NEAR Shoemaker": {
+            "target_body": "EARTH",
+            "layer_tags": {
+                "body_mapping": "v35_base_earth",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.9230116488440322,
+                "beta_surface": 1.5514100553281597e-06,
+                "beta_curved": 1.4319695532016559e-06,
+                "equatorial_sweep": -0.1609854666695082,
+                "raw_baseline_dv_ms": -0.003422135771956472,
+                "curved_baseline_dv_ms": -3.1586711814416886e-06,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Rosetta (2005)": {
+            "target_body": "EARTH",
+            "layer_tags": {
+                "body_mapping": "v35_base_earth",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.7654863135160187,
+                "beta_surface": 1.5514100553281597e-06,
+                "beta_curved": 1.1875831640048355e-06,
+                "equatorial_sweep": 0.17243837583044785,
+                "raw_baseline_dv_ms": 0.0020668798408310443,
+                "curved_baseline_dv_ms": 1.582168229838331e-06,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Galileo II (1992)": {
+            "target_body": "EARTH",
+            "layer_tags": {
+                "body_mapping": "v35_base_earth",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.95464843308166,
+                "beta_surface": 1.5514100553281597e-06,
+                "beta_curved": 1.4810511783861592e-06,
+                "equatorial_sweep": 0.001962040126730513,
+                "raw_baseline_dv_ms": 5.40419115879415e-05,
+                "curved_baseline_dv_ms": 5.159102621816596e-08,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Juno (2013)": {
+            "target_body": "EARTH",
+            "layer_tags": {
+                "body_mapping": "v35_base_earth",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.9194191989567799,
+                "beta_surface": 1.5514100553281597e-06,
+                "beta_curved": 1.42639619032331e-06,
+                "equatorial_sweep": 0.1967117763977878,
+                "raw_baseline_dv_ms": 0.0060486800450769524,
+                "curved_baseline_dv_ms": 5.561272561790511e-06,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Voyager 1 (Jupiter)": {
+            "target_body": "JUPITER",
+            "layer_tags": {
+                "body_mapping": "v37_ext_jupiter",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.20426752611488264,
+                "beta_surface": 4.193602536725591e-05,
+                "beta_curved": 8.566168156860327e-06,
+                "equatorial_sweep": 0.44514512108286763,
+                "raw_baseline_dv_ms": 0.41927467983783656,
+                "curved_baseline_dv_ms": 8.564420161308434e-05,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Voyager 2 (Jupiter)": {
+            "target_body": "JUPITER",
+            "layer_tags": {
+                "body_mapping": "v37_ext_jupiter",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.11146381619976552,
+                "beta_surface": 4.193602536725591e-05,
+                "beta_curved": 4.674349423684517e-06,
+                "equatorial_sweep": 0.2715832791582008,
+                "raw_baseline_dv_ms": 0.23119920266724728,
+                "curved_baseline_dv_ms": 2.577034543163439e-05,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Voyager 1 (Saturn)": {
+            "target_body": "SATURN",
+            "layer_tags": {
+                "body_mapping": "v37_ext_saturn",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.32671249213955805,
+                "beta_surface": 3.2926756497656784e-05,
+                "beta_curved": 1.0757582673421835e-05,
+                "equatorial_sweep": 0.15007653395271625,
+                "raw_baseline_dv_ms": 0.10090611385504701,
+                "curved_baseline_dv_ms": 3.29672879297004e-05,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        },
+        "Voyager 2 (Saturn)": {
+            "target_body": "SATURN",
+            "layer_tags": {
+                "body_mapping": "v37_ext_saturn",
+                "analytical_baseline": "v38_analytical_engine",
+                "curvature_response": "v39_curvature_engine"
+            },
+            "metrics": {
+                "curvature_leverage": 0.3730194097841157,
+                "beta_surface": 3.2926756497656784e-05,
+                "beta_curved": 1.228231927486123e-05,
+                "equatorial_sweep": 0.11465201243857936,
+                "raw_baseline_dv_ms": 0.07361481846286269,
+                "curved_baseline_dv_ms": 2.7459756134381862e-05,
+                "dynamic_invariant": 0.0
+            },
+            "verification": {
+                "invariant_check": "PASS"
+            }
+        }
+    },
+    "pipeline_assertions": {
+        "invariant_consistency_pass": true,
+        "systemic_error_bounds": "0.0000%"
+    }
+}
